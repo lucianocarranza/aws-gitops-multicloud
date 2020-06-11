@@ -65,7 +65,7 @@ metadata:
 spec:
   template:
     spec:
-      iamInstanceProfile: control-plane.cluster-api-provider-aws.sigs.k8s.io
+      iamInstanceProfile: mod-c3323268de154886-Modernizatio-ControlPlaneRole-1K2CCOQY420XR
       instanceType: t3.large
       sshKeyName: weaveworks-workshop
 ---
@@ -101,7 +101,7 @@ metadata:
 spec:
   template:
     spec:
-      iamInstanceProfile: nodes.cluster-api-provider-aws.sigs.k8s.io
+      iamInstanceProfile: mod-c3323268de154886-Modernizatio-NodeInstanceRole-1HWNTGEI1JX1J
       instanceType: t3.large
       sshKeyName: weaveworks-workshop
 ---
